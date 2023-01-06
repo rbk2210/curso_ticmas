@@ -1,0 +1,21 @@
+body {
+    background-color: red;
+}
+
+p {
+    font-size: 200px;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+
+    p{
+        font-size: 100px;
+        text-align: center;
+        color: white;
+    }
+}
